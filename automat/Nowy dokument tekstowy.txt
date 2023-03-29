@@ -1,0 +1,18 @@
+<?php
+        $conn=mysqli_connect('localhost','root',"",'automat');
+        $sprawdzenie = "SELECT ilosc from 4gd_automat where id=1";
+        $zapytanie = "UPDATE `4gd_automat` SET `ilosc` = ilosc-1 where `4gd_automat`.`id`=1 ";
+        $dodanie ="UPDATE `4gd_automat` SET `ilosc` = ilosc+5 WHERE `4gd_automat`.`id`=1";
+        $query = mysqli_query($conn,$sprawdzenie);
+        while($wynik = mysqli_fetch_array($query$)){
+            if(wynik[0] == 0 || $wynik[0] < 0){$querydod = mysqli_query($conn,$dodanie);}
+            else {
+                $querydod = mysqli_query($conn,$zapytanie);
+            }
+            
+        }
+
+
+
+
+        ?>

@@ -1,0 +1,10 @@
+main{
+    display: flex;
+    background-color: magenta;
+}
+#serwis{
+    background-color: greenyellow;
+}
+#form{
+    background-color: aqua;
+}
