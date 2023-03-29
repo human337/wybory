@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(29, 29, 119);
+    color: rgb(131, 131, 230);
+}
+#gora{
+    float: left;
+    margin-left: 380px;
+    transition: all 2s;
+}
+#gora:hover{
+    transform: scale(1.2);
+}
+#lewy{
+    float: left;
+    margin-left: 210px;
+    transition: all 2s;
+}
+#lewy:hover{
+    transform: scale(1.2);
+}
+#bezi{
+    float:left;
+    margin-left: 100px;
+}
+#saturas{
+    float:left;
+    margin-left: 80px;
+}
+#srodkowy{
+    float: left;
+}
+#prawy{
+    float: left;
+    transition: all 2s;
+}
+#prawy:hover{
+    transform: scale(1.2);
+}
+#dol{
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
